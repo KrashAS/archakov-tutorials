@@ -16,7 +16,7 @@ export default function App() {
     const randomPhrase = `${firstAdjective} ${secondAdjective} ${randomNouns}`;
     setPhrase([randomPhrase, ...phrases]);
   }
-  function clearPhrase() {
+  function clearPhrases() {
     setPhrase([]);
   }
 
@@ -35,7 +35,7 @@ export default function App() {
         <button className="btn btn_generate" onClick={renderPhrases}>
           Сгенерировать
         </button>
-        <button className="btn btn_clear" onClick={clearPhrase}>
+        <button className="btn btn_clear" onClick={clearPhrases}>
           Очистить
         </button>
       </div>
