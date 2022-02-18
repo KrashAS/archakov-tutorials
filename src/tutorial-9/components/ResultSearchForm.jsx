@@ -2,7 +2,7 @@ import React from "react";
 
 function ResultSearchForm(props) {
   return (
-    <div className="app-user" key={props.results.id}>
+    <div className="app-user">
       <div className="app-user_info">
         <div className="app-user_image">
           <img src={props.results.avatar_url} alt="logo" />

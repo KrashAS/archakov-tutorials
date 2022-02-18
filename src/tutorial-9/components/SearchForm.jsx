@@ -1,6 +1,7 @@
 import React from "react";
 
 function SearchForm(props) {
+  console.log(props);
   const iconClearBtn = (
     <svg
       data-name="Layer 1"
