@@ -1,5 +1,4 @@
 import React from "react";
-
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import { posts } from "./Home";
