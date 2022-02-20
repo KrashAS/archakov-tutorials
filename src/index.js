@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./tutorial-9/App.js";
-import "./tutorial-9/style.css";
-//import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter } from "react-router-dom";
+import App from "./tutorial-10/App.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./tutorial-10/style.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
