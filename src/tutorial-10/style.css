@@ -38,6 +38,17 @@ body {
 }
 
 .login-form {
+  position: relative;
   width: 400px;
   margin: 0 auto;
+}
+
+i {
+  position: absolute;
+  top: 60%;
+  right: 5%;
+}
+i:hover {
+  color: #1674f0;
+  cursor: pointer;
 }
